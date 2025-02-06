@@ -7,24 +7,33 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url('SMIL.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        h1 {
+            margin-bottom: 350px;
+            color: rgb(0, 0, 0);
+            font-size: 7em; /* Taille du titre augmentée */
+            text-shadow: 5px 5px 5px rgb(255, 255, 255)
         }
         #countdown {
-            font-size: 2em;
-            margin-top: 20px;
+            margin-bottom: -120px;
+            font-size: 10em; /* Taille du décompte augmentée */
+            color: rgb(0, 0, 0);
+            font-weight: bold; /* Texte en gras */
+            text-shadow: 5px 5px 5px rgb(254, 254, 254); /* Ombre pour améliorer la visibilité */
         }
     </style>
 </head>
 <body>
-    <style>
-        body {
-          background-image: url('spacex-OHOU-5UVIYQ-unsplash.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
-        }
-        </style>
     <h1>Décompte avant le SEM 2025</h1>
     <div id="countdown"></div>
 
